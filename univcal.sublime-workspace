@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"url",
+				"urlopen	function"
+			],
+			[
+				"urlopnen",
+				"urllib.request.getproxies_environment"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"ur",
+				"urllib"
+			],
+			[
 				"r",
 				"request	import"
 			],
@@ -145,12 +161,20 @@
 			]
 		]
 	},
-	"build_system": "",
+	"build_system": "Packages/User/Python3.sublime-build",
 	"command_palette":
 	{
-		"height": 375.0,
+		"height": 205.0,
 		"selected_items":
 		[
+			[
+				"relp python",
+				"SublimeREPL: Python - virtualenv"
+			],
+			[
+				"sublime replipy",
+				"SublimeREPL: Python - IPython"
+			],
 			[
 				"repl",
 				"SublimeREPL: Python - IPython"
@@ -396,7 +420,7 @@
 				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
 			]
 		],
-		"width": 633.0
+		"width": 554.0
 	},
 	"console":
 	{
@@ -416,20 +440,21 @@
 	},
 	"file_history":
 	[
+		"/Users/hayato/Dropbox/Program/Asobi/univcal/data.csv",
+		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
+		"/Users/hayato/Dropbox/Program/Asobi/univcal/test.html",
+		"/Users/hayato/Dropbox/Program/Asobi/univcal/plan.html",
 		"/Users/hayato/Dropbox/Program/Asobi/univcal/univcal.sublime-project",
 		"/Users/hayato/Dropbox/Settings/Sublime Text 3/Packages/Anaconda/Default.sublime-commands",
 		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
 		"/Users/hayato/Dropbox/Settings/Sublime Text 3/Packages/Anaconda/Anaconda.sublime-settings",
-		"/Users/hayato/Dropbox/Program/Asobi/univcal/data.csv",
 		"/Users/hayato/Dropbox/Program/Asobi/univcal/*REPL* [python].py",
 		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/User/SublimeREPL.sublime-settings",
-		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/SublimeREPL/SublimeREPL.sublime-settings",
 		"/Users/hayato/Dropbox/University/Lecture/Raising Starting Work Program/1.md",
 		"/Users/hayato/Dropbox/Program/Asobi/yuikaori_scrayper/yuikaori_scrayper.py",
 		"/Users/hayato/Dropbox/Program/Asobi/univcal/univcal.py",
 		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/Users/hayato/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Users/hayato/Dropbox/Program/Asobi/univcal/plan.html",
 		"/Users/hayato/Dropbox/Settings/Sublime Text 3/Packages/LaTeXTools/builders/traditionalBuilder.py",
 		"/Users/hayato/Dropbox/Program/Asobi/yuikaori_scrayper/sftp-config.json",
 		"/Users/hayato/Dropbox/Program/Practices/checkio/roman.py",
@@ -451,7 +476,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 66.0
 	},
 	"find_in_files":
 	{
@@ -530,6 +555,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.anaconda_documentation":
+	{
+		"height": 306.0
+	},
 	"output.exec":
 	{
 		"height": 120.0
@@ -561,15 +590,19 @@
 		"selected_items":
 		[
 			[
+				"cs",
+				"data.csv"
+			],
+			[
+				"",
+				"univcal.py"
+			],
+			[
 				"test",
 				"test.html"
 			],
 			[
 				"c",
-				"data.csv"
-			],
-			[
-				"",
 				"data.csv"
 			],
 			[

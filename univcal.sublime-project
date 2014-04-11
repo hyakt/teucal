@@ -9,5 +9,12 @@
 	"settings":
 	{
 		"python_interpreter": "/Users/hayato/.virtualenvs/sandbox3/bin/python"
-	}
+	},
+	"build_systems":
+    [
+        {
+            "name": "Python3",
+        }
+    ]
+
 }
