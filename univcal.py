@@ -25,7 +25,7 @@ def getUnivCal():
     return html
 
 
-# htmlのパース
+# htmlの整形
 def soupUnivCal(html):
     tyear = date.today().strftime('%y')
     nyear = str(int(tyear) + 1)
