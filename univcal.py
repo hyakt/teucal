@@ -8,14 +8,14 @@ from datetime import date
 from bs4 import BeautifulSoup
 
 # 大学のURL
-url = 'https://www.teu.ac.jp/inside/office/kyomu/953/022096.html'
+url = 'https://www.teu.ac.jp/inside/office/kyomu/953/20150301090000000000.html'
 # url = "https://www.teu.ac.jp/inside/office/kyomu/953/scheduleH26_hachi.html"
 
 
 # 大学の予定ページからhtmlを取得
 def getUnivCal():
     https_sslv3_handler = request.HTTPSHandler(
-        context=ssl.SSLContext(ssl.PROTOCOL_SSLv3))
+        context=ssl.SSLContext(ssl.PROTOCOL_SSLv23))
     opener = request.build_opener(https_sslv3_handler)
     request.install_opener(opener)
     resp = opener.open(url)
@@ -23,7 +23,6 @@ def getUnivCal():
     # 全角英数字を半角英数字に変換
     html = unicodedata.normalize('NFKC', html)
     return html
-
 
 # htmlの処理、記録
 def soupUnivCal(html):
